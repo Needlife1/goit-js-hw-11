@@ -26,3 +26,55 @@
   background-size: cover;
   background-position: center;
 }
+
+.search-form {
+  padding: 15px;
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  top: -1px;
+  width: 100%;
+}
+
+input {
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid chartreuse;
+}
+
+button {
+  height: 40px;
+  border-radius: 10px;
+  background-color: chartreuse;
+  border: 2px solid green;
+  font-weight: 600;
+  transition: background-color 300ms linear, height 300ms linear;
+
+  &:active {
+    background-color: green;
+    height: 35px;
+  }
+}
+
+.gallery {
+  margin-top: 75px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-card {
+  border: 1.5px solid black;
+  padding: 5px;
+}
+
+.cuver-load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.is-hidden {
+  display: none;
+}
